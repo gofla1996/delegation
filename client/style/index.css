@@ -1,0 +1,22 @@
+@import 'reset.css';
+@font-face {
+  font-family: 'Pretendard Variable';
+  src: url('../fonts/Pretendard-Variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  
+  padding: 2rem;
+
+  font-family: ''Pretendard Variable', sans-serif';
+
+  & li {
+    font-size: 1.2rem;
+    margin: 10px;
+  }
+}
